@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0e6ef; 
+    color: #333; 
+}
+
+header {
+    background: #341c1c; 
+    color: #f0e6ef; 
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 4px solid #b8bedd; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0e6ef;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0a6ca; 
+}
+
+section {
+    padding: 40px;
+    margin: 40px 0;
+    max-width: 1000px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #341c1c; 
+}
+
+#about, #projects, #contact {
+    background-color: #efc3e6; 
+}
+
+.project-card {
+    background-color: #f0e6ef; 
+    border: 1px solid #b8bedd; 
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05); 
+}
+
+footer {
+    background: #341c1c;
+    color: #f0e6ef;
+    text-align: center;
+    padding: 15px 0;
+}
+
+button {
+    background-color: #9c89b8;
+    color: #f0e6ef;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #b8bedd; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    color: #341c1c; 
+}
+
+form input, form textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #b8bedd;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #9c89b8; 
+    outline: none;
+}
